@@ -1,0 +1,24 @@
+{
+  "name": "jentest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/De3trvctions/jentest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/De3trvctions/jentest/issues"
+  },
+  "homepage": "https://github.com/De3trvctions/jentest#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.17.1",
+    "jest": "^26.5.2"
+  }
+}
