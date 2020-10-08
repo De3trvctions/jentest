@@ -4,7 +4,7 @@ describe('Test Case', () => {
     expect(sum.add(1, 2)).toBe(3);
   });
   test("minus 2 - 1 to equal 1", () => {
-    expect(sum.minus(2, 1)).toBe(10);
+    expect(sum.minus(2, 1)).toBe(1);
   });
   test("multi 2 * 2 to equal 4", () => {
     expect(sum.multi(2, 2)).toBe(4);
