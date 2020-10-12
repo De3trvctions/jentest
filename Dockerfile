@@ -10,7 +10,8 @@ FROM ubuntu
 
 MAINTAINER De3
 
-RUN apt-get update
+RUN npm i
+RUN node index.js
 
 
 
