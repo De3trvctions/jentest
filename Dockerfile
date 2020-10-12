@@ -11,7 +11,6 @@ FROM node:12
 
 MAINTAINER De3
 
-WORKDIR /var/lib/jenkins/workspace/jen
 
 COPY package*.json ./
 
