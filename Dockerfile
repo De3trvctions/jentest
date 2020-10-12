@@ -11,8 +11,11 @@ FROM node:12
 
 MAINTAINER De3
 
-
 COPY package*.json ./
 
 RUN npm i
-CMD ["node", "index"]
+
+COPY . .
+
+EXPOSE 3000
+CMD [ "node", "index.js" ]
