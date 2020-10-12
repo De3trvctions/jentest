@@ -11,6 +11,10 @@ FROM node:12
 
 MAINTAINER De3
 
-RUN cat /var/lib/jenkins/workspace/jen/index.js
+WORKDIR /var/lib/jenkins/workspace/jen
+
+COPY package*.json ./
+
+RUN cat index.js
 RUN npm i
-RUN node index.js
+CMD ["node", "index,js"]
