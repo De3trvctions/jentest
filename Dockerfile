@@ -8,6 +8,7 @@
 # Use of base image
 FROM ubuntu
 FROM node:12
+FROM keymetrics/pm2
 
 MAINTAINER De3
 
