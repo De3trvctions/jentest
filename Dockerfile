@@ -15,4 +15,4 @@ MAINTAINER De3
 COPY package*.json ./
 
 RUN npm i
-CMD ["node", "index,js"]
+CMD ["node", "index"]
