@@ -7,9 +7,11 @@
 
 # Use of base image
 FROM ubuntu
-FROM node:10
+FROM node:12
 
 MAINTAINER De3
 
+RUN cat Dockerfile
+RUN cat ./index.js
 RUN npm i
 RUN node index.js
