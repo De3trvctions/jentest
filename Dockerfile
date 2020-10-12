@@ -11,7 +11,7 @@ FROM node:12
 
 MAINTAINER De3
 
-RUN cat Dockerfile
+RUN cat ./Dockerfile
 RUN cat ./index.js
 RUN npm i
 RUN node index.js
