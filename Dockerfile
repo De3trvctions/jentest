@@ -11,7 +11,6 @@ FROM node:12
 
 MAINTAINER De3
 
-RUN cat ./Dockerfile
-RUN cat ./index.js
+RUN cat /var/lib/jenkins/workspace/jen/index.js
 RUN npm i
 RUN node index.js
