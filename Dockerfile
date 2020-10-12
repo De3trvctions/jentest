@@ -15,7 +15,5 @@ WORKDIR /var/lib/jenkins/workspace/jen
 
 COPY package*.json ./
 
-RUN echo "$PWD"
-RUN echo "${index.js}"
 RUN npm i
 CMD ["node", "index,js"]
